@@ -1,5 +1,7 @@
 @import "bootstrap.scss";
 
+// Navbar Override
+
 .btn-outline-success {
   color: #9013FE;
   background-color: transparent;
@@ -11,4 +13,70 @@
   color: #fff;
   background-color: #9013FE;
   border-color: #9013FE;
+}
+
+header {
+  margin: 70px 30px;
+}
+
+// Card Styles
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 20px #A6ACAF;
+
+  .card-title {
+  margin-bottom: 0px; 
+  padding-bottom: 0px;
+}
+
+  .card-text{
+  color: #979797;
+  font-size: 14px;
+}
+
+}
+
+.card:hover {
+  box-shadow: 10px 10px 20px #A6ACAF;
+
+  }
+
+
+.share-section {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  h3 {
+  font-size: 24px; 
+  font-weight: 500; 
+  color: #343951; 
+  padding: 14px 0px;
+  }
+
+  img {
+  width: 85px; 
+  }
+
+}
+
+a { 
+  text-decoration: none; 
+
+
+.fa-twitter, .fa-facebook  {
+  color: #717483;
+}
+
+.fa-circle {
+  color: #D2D8DC;
+}
+
+}
+
+
+.h3-test {
+  font-size: 90px;
+  color: red;
 }
